@@ -15,7 +15,7 @@
   <a href="#-license"><img src="https://img.shields.io/badge/License-ISC-6B7280?style=for-the-badge" alt="License" /></a>
 </p>
 
-<p align="center"><strong>A single-page dashboard that turns any GitHub username into a clear view of their repositories, languages, stars and recent activity. Free, no sign-up, no server.</strong></p>
+<p align="center"><strong>GitSmart is a sleek, client-side web application designed to give a comprehensive, streamlined view of any GitHub profile.</strong></p>
 
 <br>
 
