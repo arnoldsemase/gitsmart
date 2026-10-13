@@ -12,7 +12,7 @@
   <a href="https://arnoldsemase.github.io/gitsmart/"><img src="https://img.shields.io/badge/Platform-Web-E0A458?style=for-the-badge&logo=googlechrome&logoColor=101311" alt="Web" /></a>
   <a href="https://docs.github.com/en/rest"><img src="https://img.shields.io/badge/Data-GitHub%20REST%20API-101311?style=for-the-badge&logo=github&logoColor=E0A458" alt="GitHub REST API" /></a>
   <a href="#-design-decisions"><img src="https://img.shields.io/badge/Stack-Vanilla%20JS-F2C07E?style=for-the-badge&logo=javascript&logoColor=101311" alt="Vanilla JS" /></a>
-  <a href="#-license"><img src="https://img.shields.io/badge/License-ISC-6B7280?style=for-the-badge" alt="License" /></a>
+  <a href="#-license"><img src="https://img.shields.io/badge/License-MIT-6B7280?style=for-the-badge" alt="License" /></a>
 </p>
 
 <p align="center"><strong>GitSmart is a sleek, client-side web application designed to give a comprehensive, streamlined view of any GitHub profile.</strong></p>
@@ -36,7 +36,23 @@
 
 | ⚙️ Runtime | 🌐 Data source | 🔐 Auth | ☁️ Hosting |
 |:---:|:---:|:---:|:---:|
-| ![Browser](https://img.shields.io/badge/Browser-101311?style=flat-square&logo=googlechrome&logoColor=E0A458) | ![GitHub API](https://img.shields.io/badge/GitHub%20REST%20API-E0A458?style=flat-square&logo=github&logoColor=101311) | ![None](https://img.shields.io/badge/None%20required-F2C07E?style=flat-square) | ![Pages](https://img.shields.io/badge/GitHub%20Pages-101311?style=flat-square&logo=githubpages&logoColor=E0A458) |
+| 
+
+![Browser](https://img.shields.io/badge/Browser-101311?style=flat-square&logo=googlechrome&logoColor=E0A458)
+
+ | 
+
+![GitHub API](https://img.shields.io/badge/GitHub%20REST%20API-E0A458?style=flat-square&logo=github&logoColor=101311)
+
+ | 
+
+![None](https://img.shields.io/badge/None%20required-F2C07E?style=flat-square)
+
+ | 
+
+![Pages](https://img.shields.io/badge/GitHub%20Pages-101311?style=flat-square&logo=githubpages&logoColor=E0A458)
+
+ |
 
 </div>
 
@@ -191,7 +207,9 @@ gitsmart/
 ├── logo.svg              → Brand mark and SVG favicon
 ├── favicon-32.png        → PNG favicon
 ├── apple-touch-icon.png  → iOS home-screen icon
-└── icon-512.png          → Social preview and large icon
+├── icon-512.png          → Social preview and large icon
+├── LICENSE               → MIT License text
+└── README.md             → This file
 ```
 
 **Design principle:** everything the page needs ships in this folder, so it works when dropped on any static host.
@@ -219,8 +237,8 @@ GitSmart needs no environment variables, API keys or secrets. The few constants 
 
 **1 · Clone**
 ```bash
-git clone https://github.com/arnoldsemase/arnoldsemase.github.io
-cd arnoldsemase.github.io/gitsmart
+git clone https://github.com/arnoldsemase/gitsmart
+cd gitsmart
 ```
 
 **2 · Serve the folder**
@@ -239,10 +257,10 @@ Open the local address and search for a username such as `torvalds`.
 
 ## ☁️ Deployment
 
-GitSmart is served by **GitHub Pages** from the `gitsmart/` folder of the `arnoldsemase.github.io` repository.
+GitSmart is served by **GitHub Pages** from the root of the `gitsmart` repository.
 
 1. Push changes to the default branch.
-2. GitHub Pages publishes the folder automatically.
+2. GitHub Pages publishes the site automatically.
 3. Visit `https://arnoldsemase.github.io/gitsmart/`.
 
 > [!TIP]
@@ -274,12 +292,12 @@ Issues and pull requests are welcome. For anything non-trivial, please open an i
 
 ## 📬 License
 
-Released under the **ISC License**.
+Released under the **MIT License**.
 
 <div align="center">
 <sub>Built with 🖤 and vanilla JavaScript · If GitSmart saved you a click, consider giving the repo a ⭐</sub>
 <br>
-<small>© 2026 Arnold Semase. All Rights Reserved.</small>
+<small>© 2026 Arnold Semase.</small>
 </div>
 
 <br>
@@ -287,4 +305,3 @@ Released under the **ISC License**.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0A458,100:101311&height=100&section=footer&animation=fadeIn" width="100%" alt="" />
 </p>
- 
