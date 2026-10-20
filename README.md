@@ -57,9 +57,6 @@ npm run dev      # local preview
 npm run build    # outputs web/dist
 ```
 
-## ☁️ Host it free
-
-Upload the contents of `web/dist` to **GitHub Pages**, **Cloudflare Pages** or **Netlify**. Links use `#/`, so no redirect rules are needed.
 
 ## 📬 License
 
