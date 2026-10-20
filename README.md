@@ -51,11 +51,18 @@ The browser calls the public GitHub API directly. No server, no token, no databa
 
 ## 👨‍💻 Run it
 
+Needs [Node.js](https://nodejs.org) 18 or newer.
+
 ```bash
+git clone https://github.com/arnoldsemase/gitsmart
+cd gitsmart
 npm install
-npm run dev      # local preview
-npm run build    # outputs web/dist
+npm run dev
 ```
+
+Open **http://localhost:5173** and search a username.
+
+To publish, run `npm run build`. The finished site is in `web/dist`.
 
 
 ## 📬 License
